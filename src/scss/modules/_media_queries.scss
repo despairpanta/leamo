@@ -1,0 +1,80 @@
+@media (max-width: 767px) {
+  h2 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .presentation-card h1 {
+    width: 177px;
+  }
+}
+
+@media (min-width: 768px) {
+  .presentation-card h1 {
+    width: 314px;
+  }
+}
+
+@media (max-width: 767px) {
+  .presentation-card {
+    height: 378px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .presentation-card {
+    height: 396px;
+  }
+}
+
+@media (max-width: 767px) {
+  .burger-header {
+    display: none;
+  }
+  .nav-header {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .burger-header {
+    display: none;
+  }
+  .nav-header {
+    display: contents;
+  }
+}
+
+@media (max-width: 767px) {
+  .product-carousel .type-center p {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .product-carousel .type-center p {
+    margin-left: 155px;
+    margin-right: 155px;
+  }
+}

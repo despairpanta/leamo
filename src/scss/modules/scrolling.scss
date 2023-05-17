@@ -1,0 +1,19 @@
+.scrolling-slogan {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.txt {
+  white-space: nowrap;
+  animation: Scroll 10s linear infinite;
+}
+
+@keyframes Scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

@@ -1,0 +1,34 @@
+.relative-container.absolut {
+  position: relative;
+}
+
+.swiper-button-next,
+.swiper-button-prev,
+.top-decoration,
+.bottom-decoration {
+  position: absolute;
+  z-index: 2;
+}
+
+.top-decoration {
+  left: 20%;
+  width: 50%;
+  height: 50%;
+  bottom: 55%;
+}
+
+.bottom-decoration {
+  right: 18%;
+  width: 50%;
+  height: 50%;
+  top: 45%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: 10%;
+}
+
+.swiper-button-next {
+  right: 0;
+}

@@ -28,6 +28,11 @@
 
 .l-bk-black {
   background: #252525;
+  color: white;
+}
+
+header h1 {
+  color: #4e603a;
 }
 
 .scrolling-slogan {
@@ -55,7 +60,34 @@ h2 {
 }
 
 p {
+  text-align: center;
+  font-size: 15px;
   font-family: "obviously", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+nav,
+div {
+  font-family: "obviously", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer {
+  background: black;
+  color: white;
+}
+
+.text-container {
+  padding: 10px;
+}
+
+.scrolling-slogan {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.product-carousel .type-center {
+  margin: 10px;
 }
