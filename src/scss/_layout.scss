@@ -31,6 +31,10 @@
   color: white;
 }
 
+// header {
+//   width: ;
+// }
+
 header h1 {
   color: #4e603a;
 }
@@ -90,4 +94,36 @@ footer {
 
 .product-carousel .type-center {
   margin: 10px;
+}
+
+.l-bk-green .type-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.recipes-section {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.recipes-section h2 {
+  margin-bottom: 35px;
+}
+
+.presentation-card {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.presentation-card h1 {
+  margin-bottom: 20px;
+}
+
+.location h1 {
+  text-transform: uppercase;
 }
