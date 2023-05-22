@@ -48,6 +48,19 @@
 }
 
 @media (max-width: 767px) {
+  .location {
+    height: 378px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .location {
+    height: 396px;
+  }
+}
+
+@media (max-width: 767px) {
   .burger-header {
     display: none;
   }
