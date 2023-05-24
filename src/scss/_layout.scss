@@ -31,10 +31,6 @@
   color: white;
 }
 
-// header {
-//   width: ;
-// }
-
 header h1 {
   color: #4e603a;
 }
@@ -61,6 +57,7 @@ h2 {
   font-family: "obviously", sans-serif;
   font-weight: 600;
   font-style: normal;
+  text-transform: uppercase;
 }
 
 p {
@@ -76,6 +73,10 @@ div {
   font-family: "obviously", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+nav {
+  text-transform: uppercase;
 }
 
 footer {
@@ -107,6 +108,8 @@ footer {
   padding-bottom: 45px;
 }
 
+// recipes
+
 .recipes-section {
   margin-top: 45px;
   margin-bottom: 45px;
@@ -115,6 +118,8 @@ footer {
 .recipes-section h2 {
   margin-bottom: 35px;
 }
+
+// presentation card
 
 .presentation-card {
   padding-left: 20px;
@@ -125,6 +130,21 @@ footer {
   margin-bottom: 20px;
 }
 
-.location h1 {
+// footer
+
+footer {
+  padding: 30px;
+}
+
+footer p {
+  text-align: left;
+}
+
+.costumers-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.costumers-section p {
   text-transform: uppercase;
 }

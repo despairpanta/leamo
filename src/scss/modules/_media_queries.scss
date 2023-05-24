@@ -22,6 +22,8 @@
   }
 }
 
+// presentation card
+
 @media (max-width: 767px) {
   .presentation-card h1 {
     width: 177px;
@@ -47,9 +49,11 @@
   }
 }
 
+// location card
+
 @media (max-width: 767px) {
   .location {
-    height: 378px;
+    height: 296px;
     width: 100%;
   }
 }
@@ -59,6 +63,22 @@
     height: 396px;
   }
 }
+
+@media (max-width: 930px) {
+  .location h2 {
+    font-size: 22px;
+    padding-top: 165px;
+  }
+}
+
+@media (min-width: 931px) {
+  .location h2 {
+    font-size: 40px;
+    padding-top: 165px;
+  }
+}
+
+// header
 
 @media (max-width: 767px) {
   .burger-header {
@@ -78,6 +98,8 @@
   }
 }
 
+// carousel
+
 @media (max-width: 767px) {
   .product-carousel .type-center p {
     margin-left: 30px;
@@ -89,5 +111,53 @@
   .product-carousel .type-center p {
     margin-left: 155px;
     margin-right: 155px;
+  }
+}
+
+// stickers
+
+@media (max-width: 435px) {
+  .stickers-left {
+    height: 132px;
+    bottom: 10%;
+    left: 10%;
+  }
+}
+
+@media (min-width: 436px) {
+  .stickers-left {
+    height: 236px;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media (max-width: 435px) {
+  .stickers-right {
+    height: 112px;
+    top: 0;
+    right: 0;
+  }
+}
+
+@media (min-width: 463px) {
+  .stickers-right {
+    height: 134px;
+    top: 0;
+    right: 0;
+  }
+}
+
+// footer
+
+@media (max-width: 435px) {
+  .copyright {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 463px) {
+  .copyright {
+    font-size: 16px;
   }
 }
